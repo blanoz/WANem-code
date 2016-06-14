@@ -17,7 +17,7 @@ $ifconfig_CMD  =    "/sbin/ifconfig "; //Must be set to the correct path of the 
 
 $onOffFile      =   "/tmp/netemstate.txt"; //Must be a name of a file in a writeable directory (tmp is usually the best location) You can call this file whatever you want as long as it's not the same as any other file in the same path.
 
-$disconnect_DIR = "/home/vagrant/disc_new_port_int";
+$disconnect_DIR = "/root/disc_new_port_int";
 
-$wanchar_DIR = "sudo /home/vagrant/wanalyzer";
+$wanchar_DIR = "sudo /root/wanalyzer";
 ?>
